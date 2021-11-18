@@ -3,6 +3,7 @@ package TD4;
 public class Boucle2 {
 	public static void main(String[] args) {
 		String s1 = "azerty", s2 = "ytreza";
+		
 		boolean flag = false;
 
 		if (s1.length() == s2.length()) {

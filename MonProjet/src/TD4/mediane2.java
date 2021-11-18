@@ -3,7 +3,7 @@ package TD4;
 public class mediane2 {
 
 	public static void main(String[] args) {
-		//pour que valeur soit médiane, doit être inférieure à 2 valeurs et supérieure à 2 valeurs
+		//pour que la valeur soit une médiane, doit être inférieure à 2 valeurs et supérieure à 2 valeurs
 		//faire chaque cas : cas où p1 est la médiane, p2 est médiane, ...
 		//int p1 = 10, p2 = 9, p3 = -1, p4 = 4, p5 = 8;
 		int p6=0;
