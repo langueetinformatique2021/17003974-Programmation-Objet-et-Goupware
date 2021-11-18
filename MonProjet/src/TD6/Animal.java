@@ -17,4 +17,9 @@ public abstract class Animal {
 		System.out.println("je suis un représentant de l'espece des "+ espece + " et j'ai "+ nb_pattes+ "pattes" );
 	
 	}
+
+	/** cri de l'animal*/
+	public abstract void crie();
+	
 }
+
