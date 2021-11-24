@@ -2,7 +2,7 @@ package TD6;
 
 public abstract class Animal {
 	private String espece;
-	private int nb_pattes = 0;
+	protected int nb_pattes = 0;
 	
 	/**Creation d'une nouvelle instance de la classe animal
 	 * @param type nom de l'espece
@@ -21,5 +21,7 @@ public abstract class Animal {
 	/** cri de l'animal*/
 	public abstract void crie();
 	
+
+
 }
 

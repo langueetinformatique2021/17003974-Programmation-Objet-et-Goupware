@@ -5,7 +5,7 @@ public class Carafe {
 	/** creation d'une carafe d'une capacite donnee
 	 * @param capacite capacite de la carafe en litre
 	 */
-	public Carafe(int capacite) {
+	public Carafe(int capacite) {      
 		capacite_ = capacite;
 		contenu_ = 0;
 	}
@@ -43,7 +43,7 @@ public class Carafe {
 				autreC.contenu_ += Contenu();
 				Vider();
 			} else {
-				contenu_ -= autreC.Capacite() - autreC.Contenu();
+				contenu_ = contenu_ - autreC.Capacite() - autreC.Contenu();
 				autreC.Remplir();
 			}
 	}
